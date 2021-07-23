@@ -212,9 +212,9 @@ ul, ol {
 #services {
 	padding: 80px 0;
 	color: rgb(255, 255, 255);
-	background: #02478b; /* Old browsers */
-	
-
+	background: #373b44; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #0e1c3d, #4286f4); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #0e1c3d, #4286f4);
 }
 #services p {
 	color: rgb(255, 255, 255);
@@ -240,7 +240,9 @@ ul, ol {
 /* team Section*/
 #team {
 	padding: 80px 0;
-	background: #bdb2b2; /* Old browsers */
+	background: #eecda3; /* fallback for old browsers */
+   /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #f8eddd, #fc9714);
 	
 }
 #team h2 {
@@ -270,7 +272,7 @@ a.fa-briefcase{
 
 /* Testimonials Section */
 #testimonials {
-	background: url(../img/08.jpg);
+	background: url(../img/50.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 80px 0;
@@ -289,7 +291,7 @@ color: rgb(255, 255, 255);
 	height: auto;
 }
 #testimonial .item p {
-	font-weight: 500;
+	font-weight: 600;
 	margin: 30px 0;
 	font-size:20px;
 	line-height:40px;
@@ -299,7 +301,7 @@ color: rgb(255, 255, 255);
 /* skill Section */
 #skill {
 	padding: 80px 0;
-	background-color: rgb(117, 84, 40);
+	background: linear-gradient(rgb(255, 180, 180),rgb(9, 1, 53));
 }
 #skill h2 {
 	color: rgb(255, 255, 255);
@@ -384,7 +386,9 @@ font-weight: 800;
 /* Contact Section */
 #contact {
 	padding: 80px 0;
-	background: gray; 
+	background: #77a1d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #77a1d3, #79cbca, #e684ae); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #79cbca,#77a1d3,  #e684ae);
 }
 #contact h2 {
 	color: rgb(255, 255, 255);
@@ -392,7 +396,7 @@ font-weight: 800;
 	font-weight: 1000;
 }
 #contact p{
-color: rgb(255, 254, 254);
+color: rgb(255, 255, 255);
 }
 
 
