@@ -212,22 +212,24 @@ ul, ol {
 #services {
 	padding: 80px 0;
 	color: rgb(255, 255, 255);
-	background: #373b44; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #0e1c3d, #4286f4); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #0e1c3d, #4286f4);
+	background: url(../img/55.jpg) no-repeat;
+	background-size: 1900px 500px;
+	/* background: #373b44; fallback for old browsers */
+	/* background: -webkit-linear-gradient(to top, #0e1c3d, #4286f4); /* Chrome 10-25, Safari 5.1-6 */
+	/* background: linear-gradient(to top, #0e1c3d, #4286f4); */ 
 }
 #services p {
-	color: rgb(255, 255, 255);
+	color: rgb(19, 2, 253);
 	font-size: 24px;
 }
 
 #services h2 {
-	color: rgb(255, 254, 254);
+	color: rgb(8, 0, 0);
 	font-size: 30px ;
 	font-weight: 1000;
 }
 #services strong {
-	color: #cbee07;
+	color: #4d033d;
 	font-size: 24px;
 }
 
