@@ -340,7 +340,7 @@ color: rgb(255, 255, 255);
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 }
-.portfolio-item a{
+#works h4{
 color: rgb(7, 11, 247);
 font-size: 20px;
 font-weight: 800;
