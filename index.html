@@ -14,8 +14,8 @@
 <script src="js/bootstrap.js"></script> 
 <script src="js/main.js"></script>
 <script src="./js/bootstrap.bundle.min.js"></script>
-
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 </head>
 
@@ -101,41 +101,41 @@
 <div id="services">
   <div class="container">
     <div class="section-title center">
-      <h2 class="text-center">個人資訊</h2>
+      <h2 class="text-center" data-aos="fade-down">個人資訊</h2>
       <hr>
       </div>
     <div class="row">
       <div class="col-md-4"> 
-         <h4><strong>姓名:</strong>  </h4> 
-         <p>
+         <h4 data-aos="fade-right"><strong>姓名:</strong>  </h4> 
+         <p data-aos="fade-right">
           楊家瑋
           </p>
       </div>
       <div class="col-md-4"> 
-        <h4><strong>年齡:</strong></h4>
-        <p>
+        <h4 data-aos="fade-up"><strong>年齡:</strong></h4>
+        <p data-aos="fade-up">
 		25
 		</p>
       </div>
       <div class="col-md-4"> 
-        <h4><strong>個性:</strong></h4>
-        <p>
+        <h4 data-aos="fade-left"><strong>個性:</strong></h4>
+        <p  data-aos="fade-left"> 
           個性隨和好相處 、待人謙和
 		</p>
       </div>
       <div class="col-md-4"> 
-        <h4><strong>居住地:</strong></h4>
-        <p>新北市</p>
+        <h4 data-aos="fade-right"><strong >居住地:</strong></h4>
+        <p data-aos="fade-right">新北市</p>
       </div>
       <div class="col-md-4"> 
-        <h4><strong>工作經歷:</strong></h4>
-        <p>
+        <h4 data-aos="fade-up"><strong>工作經歷:</strong></h4>
+        <p data-aos="fade-up">
       2年
 		</p>
       </div>
       <div class="col-md-4"> 
-        <h4><strong>狀況:</strong></h4>
-        <p>
+        <h4 data-aos="fade-left"><strong>狀況:</strong></h4>
+        <p data-aos="fade-left">
      待業中
 		</p>
       </div>
@@ -148,12 +148,12 @@
 <div id="team" class="text-center">
   <div class="container">
     <div class="section-title center">
-    <h2>學經歷</h2>
+    <h2  data-aos="fade-down">學經歷</h2>
       <hr>
       </div>
     <div id="row">
 	
-	<div class="col-md-4">
+	<div class="col-md-4"  data-aos="fade-right">
         
           <div class="caption">
             <h3><a class="fa fa-graduation-cap"></a> 學歷:</h3><br>
@@ -163,7 +163,7 @@
         </div>
   
 	
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="fade-up">
        
           <div class="caption">
             <h3><a class="fa fa-briefcase"></a> 工作經驗 1 :</h3><br>
@@ -183,7 +183,7 @@
 	  
       
 	  
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="fade-left">
         
           <div class="caption">
             <h3><a class="fa fa-briefcase"></a> 工作經驗 2 :</h3><br>
@@ -209,7 +209,7 @@
 <div id="testimonials" class="text-center">
   <div class="container">
     <div class="section-title center">
-      <h2>自傳</h2>
+      <h2 data-aos="fade-down">自傳</h2>
       <hr>
     </div>
     <div class="row">
@@ -240,7 +240,7 @@
 <div id="skill">
   <div class="container">
     <div class="section-title text-center center">
-      <h2>技能經驗</h2>
+      <h2 data-aos="fade-down">技能經驗</h2>
       <hr>
     </div>
     <div class="row">
@@ -261,7 +261,7 @@
 <div id="works">
   <div class="container">
     <div class="section-title text-center center">
-      <h2>我的作品</h2>
+      <h2 data-aos="fade-down">我的作品</h2>
       <hr>
     </div>
     <div class="row">
@@ -344,7 +344,7 @@
 <div id="contact" class="text-center">
   <div class="container">
     <div class="section-title center">
-      <h2>與我聯絡</h2>
+      <h2 data-aos="fade-down">與我聯絡</h2>
       <hr>
     </div>
     <div class="col-md-8 col-md-offset-2">
@@ -383,3 +383,8 @@
 
 </body>
 </html>
+
+<script>
+  AOS.init();
+ </script>
+ 
