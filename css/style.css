@@ -263,11 +263,11 @@ ul, ol {
 #team h4 {
 	color: rgb(63, 46, 46);
 	font-weight: 1000;
-
+	font-size: 25px ;
 }
 #team p {
 	color: rgb(88, 81, 81);
-	
+	font-size: 20px ;
 }
 a.fa-graduation-cap{
 	color: rgb(23, 6, 107);
